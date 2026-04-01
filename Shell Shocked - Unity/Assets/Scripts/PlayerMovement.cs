@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using UnityEngine;
 
 //This means that our script can only be placed on an object that has a Rigidbody2D
@@ -27,4 +28,18 @@ public class PlayerMovement : MonoBehaviour
     {
         physicsBody.linearVelocityX = speed;
     }
+    //Jump speed setting, in meters/ second 
+    public float jumpSpeed = 10;
+
+    public void Jump()
+    {
+        //Make a variable to hold our velocity and get the
+        //current velocity from the physics component 
+        Vector2 newVelocity = physicsBody.velocity;
+        //set our velocity to move in the positive y (up) direction
+        newVelocity.y = jumpSpeed;
+        //update our physics components velocity to be our newly changed value 
+        physicsBody.velocity = newVelocity;
+    }
 }
+
