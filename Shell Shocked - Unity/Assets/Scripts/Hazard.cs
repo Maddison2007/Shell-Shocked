@@ -5,6 +5,7 @@ public class Hazard : MonoBehaviour
     //built in unity function for handling collisions, this function will be called when another object bumps into the one this script is attached to 
      void OnCollisionEnter2D(Collision2D collisionData)
     {
+        Debug.Log("Hazard OnCollisionEnter2D");
         //get the object we collided with
 
         Collider2D objectWeCollidedWith = collisionData.collider;
@@ -18,6 +19,7 @@ public class Hazard : MonoBehaviour
         if (player != null)
 
         {
+            Debug.Log("Hazard if (player != null)");
             //this means there was a player health script attached to the object we bumped into this means this object is indeed a player 
             //we now perform our action
             player.Kill();

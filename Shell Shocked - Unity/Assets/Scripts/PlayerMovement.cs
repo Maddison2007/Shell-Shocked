@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //Go to the RigidBody stored in our variable
         //change the LinearVelocity's X value to -1
-        physicsBody.linearVelocityX = -speed;
+      
     }
 
     public void MoveRight()
@@ -33,13 +33,9 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump()
     {
-        //Make a variable to hold our velocity and get the
-        //current velocity from the physics component 
-        Vector2 newVelocity = physicsBody.velocity;
-        //set our velocity to move in the positive y (up) direction
-        newVelocity.y = jumpSpeed;
-        //update our physics components velocity to be our newly changed value 
-        physicsBody.velocity = newVelocity;
+        physicsBody.linearVelocityY = jumpSpeed;
     }
+
+ 
 }
 
