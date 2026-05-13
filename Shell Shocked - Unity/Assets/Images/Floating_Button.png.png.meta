@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Floating_Button.png_0: -4980157317138047376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
