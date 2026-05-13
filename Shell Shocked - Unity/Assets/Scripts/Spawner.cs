@@ -8,6 +8,8 @@ public class Spawner : MonoBehaviour
     //represents how long we want there to be between spawns 
     public float cooldownDuration;
 
+    public float spawnRange = 1;
+
     //Represents how long it has been since we last spawned something 
     private float cooldownTimer = 0;
 
@@ -21,8 +23,12 @@ public class Spawner : MonoBehaviour
 
         if (cooldownTimer >= cooldownDuration )
         {
+            //this picks a random number and uses it to make a new spawn location 
+            Vector3 offset = Vector3.zero;
+            offset.y = Random.Range(-spawnRange, spawnRange);
+
             //action: spawn a prefab 
-            Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
+            Instantiate(prefabToSpawn, transform.position+ offset, prefabToSpawn.transform.rotation);
 
             //resets the cooldown time back to 0
             cooldownTimer = 0;
