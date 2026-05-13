@@ -1030,15 +1030,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4390731316319762184, guid: 47ec24e7a8e1fc544bd2321b4985eaa7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.02
+      value: 10.09
       objectReference: {fileID: 0}
     - target: {fileID: 4390731316319762184, guid: 47ec24e7a8e1fc544bd2321b4985eaa7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.542
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 4390731316319762184, guid: 47ec24e7a8e1fc544bd2321b4985eaa7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.15
+      value: -0.18
       objectReference: {fileID: 0}
     - target: {fileID: 4390731316319762184, guid: 47ec24e7a8e1fc544bd2321b4985eaa7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1086,12 +1086,16 @@ PrefabInstance:
       value: Oil_Spill.png_0
       objectReference: {fileID: 0}
     - target: {fileID: 8480823531746455671, guid: e7b5e441b6ec161408d163f6707fb2e2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0948
+      objectReference: {fileID: 0}
+    - target: {fileID: 8480823531746455671, guid: e7b5e441b6ec161408d163f6707fb2e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.88
+      value: 10.26
       objectReference: {fileID: 0}
     - target: {fileID: 8480823531746455671, guid: e7b5e441b6ec161408d163f6707fb2e2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.76
+      value: -0.68
       objectReference: {fileID: 0}
     - target: {fileID: 8480823531746455671, guid: e7b5e441b6ec161408d163f6707fb2e2, type: 3}
       propertyPath: m_LocalPosition.z
