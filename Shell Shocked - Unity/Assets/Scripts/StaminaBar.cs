@@ -9,7 +9,7 @@ public class ScrollingBar : MonoBehaviour
     [SerializeField]
     float fillArea, MaxGauge;
     [SerializeField]
-    float depleteSpeed = 5;
+    float depleteSpeed = 1;
 
 
     // Update is called once per frame
@@ -30,20 +30,25 @@ public class ScrollingBar : MonoBehaviour
         // If the Enemy tag has collided with the player
         if (collision.gameObject.tag == ("Enemy"))
         {
-            fillArea = fillArea - 25;
+            fillArea = fillArea - 5;
        
         }
 
         if (collision.gameObject.tag == ("Oil"))
         {
-            fillArea = fillArea - 25;
+            fillArea = fillArea - 5;
           
         }
 
         if (collision.gameObject.tag == ("DEATHBARRIER OF DOOM"))
         {
-            fillArea = fillArea - 100;
+            fillArea = fillArea - 10;
 
+        }
+
+        if (collision.gameObject.tag == ("Kelp"))
+        {
+            fillArea = fillArea + 15;
         }
     }
     }

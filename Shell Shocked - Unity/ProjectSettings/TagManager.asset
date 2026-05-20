@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Oil
   - DEATHBARRIER OF DOOM
+  - Kelp
   layers:
   - Default
   - TransparentFX
