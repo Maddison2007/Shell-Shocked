@@ -1,9 +1,12 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ObjectMove : MonoBehaviour
 {
-
+    //This creates a variable for speed which can be changed in the objects inspector menu
     public float speed = 1f;
+
+    //This ensures that the physics on the object is set to 0
     private Rigidbody2D physicsBody = null;
 
 
@@ -19,6 +22,7 @@ public class ObjectMove : MonoBehaviour
 
 void Update()
     {
+        //This ensures the direction that the object is moving in (x axis)
        physicsBody.linearVelocityX = -speed;
     }
 }

@@ -8,6 +8,8 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("PlayerHealth Kill()");
         //This will destroy the game object that this script is attached to 
+        //The player health script will allow objects and enemies to check whether or not the 
+        //object is a player or not
         Destroy(gameObject);
     }
 

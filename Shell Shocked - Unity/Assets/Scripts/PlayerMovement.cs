@@ -26,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void MoveRight()
     {
+        //This ensures the direction the player goes in and makes sure it follows the speed given.
         physicsBody.linearVelocityX = speed;
     }
     //Jump speed setting, in meters/ second 
@@ -33,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump()
     {
+        //This ensures the direction the player goes in and makes sure it follows the speed given
         physicsBody.linearVelocityY = jumpSpeed;
     }
 
