@@ -50,5 +50,10 @@ public class ScrollingBar : MonoBehaviour
         {
             fillArea = fillArea + 15;
         }
+
+        if (collision.gameObject.tag == ("Whale"))
+        {
+            fillArea = fillArea - 10;
+        }
     }
     }
