@@ -49,6 +49,7 @@ public class ScrollingBar : MonoBehaviour
         if (collision.gameObject.tag == ("Kelp"))
         {
             fillArea = fillArea + 15;
+   
         }
 
         if (collision.gameObject.tag == ("Whale"))

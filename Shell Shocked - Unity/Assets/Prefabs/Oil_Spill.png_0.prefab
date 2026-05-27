@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6366691153914441894}
   - component: {fileID: 8714100028343537230}
   - component: {fileID: 8522739838061179092}
+  - component: {fileID: 6426291623221702347}
   m_Layer: 0
   m_Name: Oil_Spill.png_0
   m_TagString: Oil
@@ -189,3 +190,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &6426291623221702347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3261258760872231736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec7ce839ded0124f94d76f976ff26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

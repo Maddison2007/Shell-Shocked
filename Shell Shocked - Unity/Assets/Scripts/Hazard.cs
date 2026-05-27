@@ -22,7 +22,11 @@ public class Hazard : MonoBehaviour
             Debug.Log("Hazard if (player != null)");
             //this means there was a player health script attached to the object we bumped into this means this object is indeed a player 
             //we now perform our action
-            //player.Kill();
+
+            //When the player hits this object it will disapear 
+            Destroy(gameObject);
         }
+    
     }
+        
 }

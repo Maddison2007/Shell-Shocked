@@ -13,13 +13,6 @@ public class ObjectMove : MonoBehaviour
         physicsBody = GetComponent<Rigidbody2D>();
     }
 
-   public void OnCollisionEnter2D(Collision2D collision)
-    {
-        {
-
-            Destroy(gameObject);
-        }
-    }
   
 
 
