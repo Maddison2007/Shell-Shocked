@@ -24,7 +24,7 @@ public class ScrollingBar : MonoBehaviour
         //This will bring up the title screen if the player dies AKA if the energy bar reaches 0
         if (fillArea <= 0)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("GameOver");
         }
     }
 
