@@ -1316,7 +1316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scrollingBar: {fileID: 1172837393}
   fillArea: 100
-  maxGauge: 0
+  maxGauge: 100
   depleteSpeed: 4
 --- !u!95 &1490931470
 Animator:
