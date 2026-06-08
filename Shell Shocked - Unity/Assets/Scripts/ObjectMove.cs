@@ -20,7 +20,7 @@ public class ObjectMove : MonoBehaviour
 
 
 
-void Update()
+    void Update()
     {
         //This ensures the direction that the object is moving in (x axis)
        physicsBody.linearVelocityX = -speed;

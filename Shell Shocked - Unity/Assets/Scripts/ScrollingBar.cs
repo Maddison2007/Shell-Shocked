@@ -8,7 +8,7 @@ public class ScrollingBar : MonoBehaviour
     [SerializeField]
     Image scrollingBar;
     [SerializeField]
-    float fillArea, MaxGauge;
+    float fillArea, maxGauge;
     [SerializeField]
     float depleteSpeed = 1;
 
@@ -19,7 +19,7 @@ public class ScrollingBar : MonoBehaviour
         //This takes the fillArea and makes it decrease over a certain amount of time 
         fillArea -= depleteSpeed * Time.deltaTime;
         //This creates a max amount it can be decreased before the player dies.
-        scrollingBar.fillAmount = fillArea / MaxGauge;
+        scrollingBar.fillAmount = fillArea / maxGauge;
 
         //This will bring up the title screen if the player dies AKA if the energy bar reaches 0
         if (fillArea <= 0)

@@ -1,10 +1,15 @@
 using JetBrains.Annotations;
 using UnityEngine;
 
+
+
 //This means that our script can only be placed on an object that has a Rigidbody2D
 [RequireComponent (typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
+
+    //Jump speed setting, in meters/ second 
+    public float jumpSpeed = 10;
 
     // Script Variables
     public float speed = 1f;
@@ -29,8 +34,7 @@ public class PlayerMovement : MonoBehaviour
         //This ensures the direction the player goes in and makes sure it follows the speed given.
         physicsBody.linearVelocityX = speed;
     }
-    //Jump speed setting, in meters/ second 
-    public float jumpSpeed = 10;
+
 
     public void Jump()
     {

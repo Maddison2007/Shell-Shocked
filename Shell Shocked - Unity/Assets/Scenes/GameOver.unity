@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 295405724}
   - component: {fileID: 295405728}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Try Again Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -632,7 +632,7 @@ GameObject:
   - component: {fileID: 585171541}
   - component: {fileID: 585171544}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Main Menu Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1103,7 +1103,7 @@ GameObject:
   - component: {fileID: 1700862710}
   - component: {fileID: 1700862709}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: GameOver text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -6,8 +6,8 @@ public class ScrollingBackground : MonoBehaviour
 {
     //This will make variables for everything that needs to change in order for the background to move 
     public float speed;
+
     [SerializeField]
-   
     private Renderer bgRenderer;
 
     // Update is called once per frame
